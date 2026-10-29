@@ -1,0 +1,42 @@
+# SkillMarkdown Skills
+
+Production-quality [Agent Skills](https://skillmarkdown.net/spec) for Claude Code, OpenAI Codex, Cursor, Gemini CLI and every app that reads `SKILL.md`.
+Each skill was researched against current documentation, scores 100/100 in the [SkillMarkdown checker](https://skillmarkdown.net/checker) with no security
+findings, and ships with references, scripts where useful, and trigger tests you can run with `claude plugin eval`.
+
+## Install in Claude Code
+
+```
+/plugin marketplace add skillmarkdown-net/skills
+```
+
+Then install the skills you want:
+
+| Skill | What it does | Install |
+|---|---|---|
+| [GitHub Actions Hardening Audit](plugins/github-actions-hardening) | Audit GitHub Actions workflows for supply-chain, injection and privilege issues and get a findings table with YAML diff fixes. | `/plugin install github-actions-hardening@skillmarkdown` |
+| [Stripe Webhook Reviewer](plugins/stripe-webhook-reviewer) | Audits a Stripe webhook handler and returns ranked risks with concrete code fixes and Stripe CLI test steps. | `/plugin install stripe-webhook-reviewer@skillmarkdown` |
+| [Terraform Plan Risk Review](plugins/terraform-plan-risk-review) | Scans a Terraform plan JSON for destroys, public S3, open security groups and IAM wildcards, and prints a risk table with a go/no-go verdict. | `/plugin install terraform-plan-risk-review@skillmarkdown` |
+
+## Use in other apps
+
+Each plugin folder contains `skills/<name>/`. Copy that folder into your app's skills directory (for example `.agents/skills/`, `.cursor/skills/`,
+`.gemini/skills/` or `~/.claude/skills/`). See each skill's README for the exact paths.
+
+## Test a skill
+
+```
+cd plugins/<name>
+claude plugin eval .
+```
+
+Every plugin has an `evals/` folder with requests that should trigger the skill and near-misses that should not.
+
+## Make your own
+
+These were built with the [SkillMarkdown](https://skillmarkdown.net) Pro package builder. Describe a workflow and get a researched, tested,
+GitHub-ready skill package. The [checker](https://skillmarkdown.net/checker) and [converter](https://skillmarkdown.net/converter) are free.
+
+## License
+
+MIT. See [LICENSE](LICENSE). Updated 2026-10-29.

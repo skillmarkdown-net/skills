@@ -1,0 +1,20 @@
+{
+  "name": "terraform-plan-risk-review",
+  "displayName": "Terraform Plan Risk Review",
+  "version": "1.0.0",
+  "description": "Scans a Terraform plan JSON for destroys, public S3, open security groups and IAM wildcards, and prints a risk table with a go/no-go verdict.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "terraform",
+    "plan-review",
+    "iam",
+    "s3",
+    "security-groups",
+    "opentofu"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}

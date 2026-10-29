@@ -1,0 +1,52 @@
+{
+  "name": "skillmarkdown",
+  "owner": {
+    "name": "SkillMarkdown",
+    "url": "https://skillmarkdown.net"
+  },
+  "description": "Production-quality Agent Skills built and checked by SkillMarkdown: researched instructions, references, scripts and trigger tests.",
+  "plugins": [
+    {
+      "name": "github-actions-hardening",
+      "source": "./plugins/github-actions-hardening",
+      "description": "Audit GitHub Actions workflows for supply-chain, injection and privilege issues and get a findings table with YAML diff fixes.",
+      "category": "skills",
+      "tags": [
+        "github-actions",
+        "ci-security",
+        "supply-chain",
+        "sha-pinning",
+        "pwn-request",
+        "workflow-audit"
+      ]
+    },
+    {
+      "name": "stripe-webhook-reviewer",
+      "source": "./plugins/stripe-webhook-reviewer",
+      "description": "Audits a Stripe webhook handler and returns ranked risks with concrete code fixes and Stripe CLI test steps.",
+      "category": "skills",
+      "tags": [
+        "stripe",
+        "webhooks",
+        "code-review",
+        "payments",
+        "idempotency",
+        "security"
+      ]
+    },
+    {
+      "name": "terraform-plan-risk-review",
+      "source": "./plugins/terraform-plan-risk-review",
+      "description": "Scans a Terraform plan JSON for destroys, public S3, open security groups and IAM wildcards, and prints a risk table with a go/no-go verdict.",
+      "category": "skills",
+      "tags": [
+        "terraform",
+        "plan-review",
+        "iam",
+        "s3",
+        "security-groups",
+        "opentofu"
+      ]
+    }
+  ]
+}

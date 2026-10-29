@@ -1,0 +1,19 @@
+{
+  "name": "iam-least-privilege-review",
+  "displayName": "IAM Least Privilege Review",
+  "version": "1.0.0",
+  "description": "Audit AWS IAM policies for least privilege, rank findings by severity, and return a tightened policy plus Access Analyzer validation steps.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "aws",
+    "iam",
+    "least-privilege",
+    "access-analyzer",
+    "security-review"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}

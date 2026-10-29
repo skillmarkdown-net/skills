@@ -1,0 +1,20 @@
+{
+  "name": "k8s-manifest-preapply-review",
+  "displayName": "Kubernetes Manifest Pre-Apply Review",
+  "version": "1.0.0",
+  "description": "Pre-apply review of Kubernetes YAML: security, resources, probes, images, PDB, NetworkPolicy and RBAC, with severity-ranked findings and fixes.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "kubernetes",
+    "kubectl",
+    "helm",
+    "securitycontext",
+    "rbac",
+    "networkpolicy"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}

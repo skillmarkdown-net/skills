@@ -1,0 +1,20 @@
+{
+  "name": "llm-app-security-review",
+  "displayName": "LLM App Security Review",
+  "version": "1.0.0",
+  "description": "Audits chatbot, RAG and agent code against OWASP LLM Top 10 2025 and reports ranked risks with fixes and canary test prompts.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "owasp",
+    "llm-security",
+    "prompt-injection",
+    "rag",
+    "ai-agents",
+    "security-review"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}

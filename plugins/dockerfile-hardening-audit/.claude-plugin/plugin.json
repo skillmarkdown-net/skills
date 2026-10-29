@@ -1,0 +1,20 @@
+{
+  "name": "dockerfile-hardening-audit",
+  "displayName": "Dockerfile Hardening Audit",
+  "version": "1.0.0",
+  "description": "Reviews a Dockerfile and image, reports findings by severity, and returns a fixed Dockerfile, .dockerignore and scan commands.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "dockerfile",
+    "docker",
+    "container-security",
+    "trivy",
+    "distroless",
+    "buildkit"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}

@@ -1,0 +1,19 @@
+{
+  "name": "postgres-slow-query-diagnosis",
+  "displayName": "Postgres Slow Query Diagnosis",
+  "version": "1.0.0",
+  "description": "Reads PostgreSQL EXPLAIN ANALYZE plans, finds the real cause of slowness, and proposes indexes, rewrites and a safe way to verify them.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "postgresql",
+    "explain-analyze",
+    "query-tuning",
+    "indexes",
+    "performance"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}

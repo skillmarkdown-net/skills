@@ -7,6 +7,20 @@
   "description": "Production-quality Agent Skills built and checked by SkillMarkdown: researched instructions, references, scripts and trigger tests.",
   "plugins": [
     {
+      "name": "dockerfile-hardening-audit",
+      "source": "./plugins/dockerfile-hardening-audit",
+      "description": "Reviews a Dockerfile and image, reports findings by severity, and returns a fixed Dockerfile, .dockerignore and scan commands.",
+      "category": "skills",
+      "tags": [
+        "dockerfile",
+        "docker",
+        "container-security",
+        "trivy",
+        "distroless",
+        "buildkit"
+      ]
+    },
+    {
       "name": "github-actions-hardening",
       "source": "./plugins/github-actions-hardening",
       "description": "Audit GitHub Actions workflows for supply-chain, injection and privilege issues and get a findings table with YAML diff fixes.",
@@ -18,6 +32,47 @@
         "sha-pinning",
         "pwn-request",
         "workflow-audit"
+      ]
+    },
+    {
+      "name": "iam-least-privilege-review",
+      "source": "./plugins/iam-least-privilege-review",
+      "description": "Audit AWS IAM policies for least privilege, rank findings by severity, and return a tightened policy plus Access Analyzer validation steps.",
+      "category": "skills",
+      "tags": [
+        "aws",
+        "iam",
+        "least-privilege",
+        "access-analyzer",
+        "security-review"
+      ]
+    },
+    {
+      "name": "k8s-manifest-preapply-review",
+      "source": "./plugins/k8s-manifest-preapply-review",
+      "description": "Pre-apply review of Kubernetes YAML: security, resources, probes, images, PDB, NetworkPolicy and RBAC, with severity-ranked findings and fixes.",
+      "category": "skills",
+      "tags": [
+        "kubernetes",
+        "kubectl",
+        "helm",
+        "securitycontext",
+        "rbac",
+        "networkpolicy"
+      ]
+    },
+    {
+      "name": "llm-app-security-review",
+      "source": "./plugins/llm-app-security-review",
+      "description": "Audits chatbot, RAG and agent code against OWASP LLM Top 10 2025 and reports ranked risks with fixes and canary test prompts.",
+      "category": "skills",
+      "tags": [
+        "owasp",
+        "llm-security",
+        "prompt-injection",
+        "rag",
+        "ai-agents",
+        "security-review"
       ]
     },
     {
@@ -45,6 +100,19 @@
         "api-diff",
         "semver",
         "oasdiff"
+      ]
+    },
+    {
+      "name": "postgres-slow-query-diagnosis",
+      "source": "./plugins/postgres-slow-query-diagnosis",
+      "description": "Reads PostgreSQL EXPLAIN ANALYZE plans, finds the real cause of slowness, and proposes indexes, rewrites and a safe way to verify them.",
+      "category": "skills",
+      "tags": [
+        "postgresql",
+        "explain-analyze",
+        "query-tuning",
+        "indexes",
+        "performance"
       ]
     },
     {

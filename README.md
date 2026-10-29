@@ -4,8 +4,6 @@ Production-quality [Agent Skills](https://skillmarkdown.net/spec) for Claude Cod
 Each skill was researched against current documentation, scores 100/100 in the [SkillMarkdown checker](https://skillmarkdown.net/checker) with no security
 findings, and ships with references, scripts where useful, and trigger tests you can run with `claude plugin eval`.
 
-[![skills.sh](https://skills.sh/b/skillmarkdown-net/skills)](https://skills.sh/skillmarkdown-net/skills)
-
 ## Install in Claude Code
 
 ```

@@ -4,6 +4,8 @@ Production-quality [Agent Skills](https://skillmarkdown.net/spec) for Claude Cod
 Each skill was researched against current documentation, scores 100/100 in the [SkillMarkdown checker](https://skillmarkdown.net/checker) with no security
 findings, and ships with references, scripts where useful, and trigger tests you can run with `claude plugin eval`.
 
+[![skills.sh](https://skills.sh/b/skillmarkdown-net/skills)](https://skills.sh/skillmarkdown-net/skills)
+
 ## Install in Claude Code
 
 ```
@@ -19,6 +21,14 @@ Then install the skills you want:
 | [OpenAPI Breaking Change Report](plugins/openapi-breaking-change-report) | Diff two OpenAPI 3.x specs, classify each change as breaking, risky or safe, suggest a semver bump and write migration notes. | `/plugin install openapi-breaking-change-report@skillmarkdown` |
 | [Stripe Webhook Reviewer](plugins/stripe-webhook-reviewer) | Audits a Stripe webhook handler and returns ranked risks with concrete code fixes and Stripe CLI test steps. | `/plugin install stripe-webhook-reviewer@skillmarkdown` |
 | [Terraform Plan Risk Review](plugins/terraform-plan-risk-review) | Scans a Terraform plan JSON for destroys, public S3, open security groups and IAM wildcards, and prints a risk table with a go/no-go verdict. | `/plugin install terraform-plan-risk-review@skillmarkdown` |
+
+## Install with the open skills CLI
+
+Works for Claude Code, Codex, Cursor and the other agents the CLI supports:
+
+```
+npx skills add skillmarkdown-net/skills --skill <name>
+```
 
 ## Use in other apps
 

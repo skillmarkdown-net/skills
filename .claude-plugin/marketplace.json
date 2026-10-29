@@ -21,6 +21,33 @@
       ]
     },
     {
+      "name": "nextjs-app-router-seo-audit",
+      "source": "./plugins/nextjs-app-router-seo-audit",
+      "description": "Prioritised SEO audit for Next.js App Router apps covering metadata, canonicals, sitemaps, JSON-LD, rendering, images and hreflang, with code fixes.",
+      "category": "skills",
+      "tags": [
+        "nextjs",
+        "seo",
+        "app-router",
+        "hreflang",
+        "core-web-vitals",
+        "json-ld"
+      ]
+    },
+    {
+      "name": "openapi-breaking-change-report",
+      "source": "./plugins/openapi-breaking-change-report",
+      "description": "Diff two OpenAPI 3.x specs, classify each change as breaking, risky or safe, suggest a semver bump and write migration notes.",
+      "category": "skills",
+      "tags": [
+        "openapi",
+        "breaking-changes",
+        "api-diff",
+        "semver",
+        "oasdiff"
+      ]
+    },
+    {
       "name": "stripe-webhook-reviewer",
       "source": "./plugins/stripe-webhook-reviewer",
       "description": "Audits a Stripe webhook handler and returns ranked risks with concrete code fixes and Stripe CLI test steps.",

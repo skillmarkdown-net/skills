@@ -1,0 +1,20 @@
+{
+  "name": "nextjs-app-router-seo-audit",
+  "displayName": "Next.js SEO Audit",
+  "version": "1.0.0",
+  "description": "Prioritised SEO audit for Next.js App Router apps covering metadata, canonicals, sitemaps, JSON-LD, rendering, images and hreflang, with code fixes.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "seo",
+    "app-router",
+    "hreflang",
+    "core-web-vitals",
+    "json-ld"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}

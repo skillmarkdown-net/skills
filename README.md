@@ -15,6 +15,8 @@ Then install the skills you want:
 | Skill | What it does | Install |
 |---|---|---|
 | [GitHub Actions Hardening Audit](plugins/github-actions-hardening) | Audit GitHub Actions workflows for supply-chain, injection and privilege issues and get a findings table with YAML diff fixes. | `/plugin install github-actions-hardening@skillmarkdown` |
+| [Next.js SEO Audit](plugins/nextjs-app-router-seo-audit) | Prioritised SEO audit for Next.js App Router apps covering metadata, canonicals, sitemaps, JSON-LD, rendering, images and hreflang, with code fixes. | `/plugin install nextjs-app-router-seo-audit@skillmarkdown` |
+| [OpenAPI Breaking Change Report](plugins/openapi-breaking-change-report) | Diff two OpenAPI 3.x specs, classify each change as breaking, risky or safe, suggest a semver bump and write migration notes. | `/plugin install openapi-breaking-change-report@skillmarkdown` |
 | [Stripe Webhook Reviewer](plugins/stripe-webhook-reviewer) | Audits a Stripe webhook handler and returns ranked risks with concrete code fixes and Stripe CLI test steps. | `/plugin install stripe-webhook-reviewer@skillmarkdown` |
 | [Terraform Plan Risk Review](plugins/terraform-plan-risk-review) | Scans a Terraform plan JSON for destroys, public S3, open security groups and IAM wildcards, and prints a risk table with a go/no-go verdict. | `/plugin install terraform-plan-risk-review@skillmarkdown` |
 

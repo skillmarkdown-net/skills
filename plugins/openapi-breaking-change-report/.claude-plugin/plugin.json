@@ -1,0 +1,19 @@
+{
+  "name": "openapi-breaking-change-report",
+  "displayName": "OpenAPI Breaking Change Report",
+  "version": "1.0.0",
+  "description": "Diff two OpenAPI 3.x specs, classify each change as breaking, risky or safe, suggest a semver bump and write migration notes.",
+  "author": {
+    "name": "SkillMarkdown"
+  },
+  "license": "MIT",
+  "keywords": [
+    "openapi",
+    "breaking-changes",
+    "api-diff",
+    "semver",
+    "oasdiff"
+  ],
+  "homepage": "https://skillmarkdown.net",
+  "repository": "https://github.com/skillmarkdown-net/skills"
+}
